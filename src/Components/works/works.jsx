@@ -30,24 +30,24 @@ const works = () => {
         },
         {
             id: "2",
+            title: "Ticket Tracker",
+            desc:
+                `Developed a comprehensive ticket tracking application with CRUD operations, real-time search, pagination, and sorting capabilities.`,
+            img:
+                "assets/student_management.png",
+            git: "https://github.com/kashyapkr/Ticker-Tracker",
+            live: "",
+            video:'assets/ticket.mp4'
+        },
+         
+        {
+            id: "3",
             title: "Todo Application",
             desc:
                 `A todo application elevated with <span style="color:rgba(220, 20, 60, 0.836);  font-size:15px; text-decoration:none; font-weight: bold;">spring security </span> basic authentication, role based authorization using jwt, made with <span style="color:rgba(220, 20, 60, 0.836);  font-size:15px; text-decoration:none; font-weight: bold;">spring boot </span> for the server side and <span style="color:rgba(220, 20, 60, 0.836);  font-size:15px; text-decoration:none; font-weight: bold;">react js </span> for the frontend part.This project helped me learn about the basics of spring security.`,
             img:
                 "assets/todo.png",
             git: "https://github.com/kashyapkr/TO-DO-app",
-            live: "",
-            video:''
-        },
-        {
-            id: "3",
-
-            title: "Student Management",
-            desc:
-                `It is a web-based application designed using <span style="color:rgba(220, 20, 60, 0.836);  font-size:15px; text-decoration:none; font-weight: bold;">spring boot </span> and <span style="color:rgba(220, 20, 60, 0.836);  font-size:15px; text-decoration:none; font-weight: bold;">thymleaf </span> to efficiently manage student-related information within an educational institution. The project encompasses basic CRUD operations to handle student data effectively`,
-            img:
-                "assets/student_management.png",
-            git: "https://github.com/kashyapkr/StudentManagement",
             live: "",
             video:''
         },
