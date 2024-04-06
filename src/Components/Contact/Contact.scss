@@ -1,0 +1,133 @@
+.contact{
+    // background-color: aqua;
+    display: flex;
+    @media screen and (max-width:593px){
+        flex-direction: column;
+    }
+
+
+    .left{
+        flex:1;
+        overflow: hidden;
+        @media screen and (min-height:668px){
+            flex:0.4;
+         }
+
+        img{
+            height: 100%;
+            overflow: hidden;
+            width: 100%;
+            
+
+           
+        }
+        h2{
+            font-size: 40px;
+            text-align: center;
+            margin-top: 20px;
+
+        }
+        p{
+            font-size: 30px;
+            padding-top: 10px;
+            color: red;
+            font-weight: 600;
+            padding-left: 10px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        
+    }
+
+    .right{
+        display: flex;
+        flex-direction: column;
+        flex:1;
+        align-items: center;
+        justify-content: center;
+        // background-color: green;
+        @media screen and (min-height:668px){
+            flex:0.6;
+            
+         }
+
+        h2{
+            font-size: 30px;
+            @media screen and (min-height:668px){
+               margin-top: -20px;
+                
+             }
+        }
+        form{
+            width: 70%;
+            height: 70%;
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            justify-content: space-around;
+            margin: 10px;
+            @media screen and (min-height:668px){
+                justify-content: center;
+                margin-top: 10px;
+                gap: 15px;
+                
+             }
+            input{
+                width: 300px;
+                height: 30px;
+                font-size: 14px;
+                @media screen and (max-width:884px){
+                    width: 79%;
+                    height: 20px;
+                }
+            }
+            textarea{
+                width: 300px;
+                height: 200px;
+                font-size: 14px;
+                @media screen and (max-width:884px){
+                    width: 80%;
+                    height: 40%;
+                }
+                @media screen and (min-height:668px){
+                   max-height: 40%;;
+                    
+                 }
+            }
+            button{
+                width: 150px;
+                height: 30px;
+                color: whitesmoke;
+                background-color: rgb(220, 20, 60);
+                opacity: 90%;
+                border-radius:10px ;
+                border: none;
+                cursor: pointer;
+
+                &:hover{
+                    opacity: 100%;
+                }
+                
+            }
+            span{
+                color: rgb(2, 58, 2);
+                font-size: 15px;
+                overflow: hidden;
+                font-weight: 300px;
+            }
+            .error{
+                color:red;
+                font-size: 15px;
+                overflow: hidden;
+                font-weight: 300px;
+                
+
+            }
+
+
+        }
+        
+     
+        
+    }
+}

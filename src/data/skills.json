@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Spring",
+        "imageSrc": "assets/springboot2.png"
+      
+    },
+    {
+        "title": "Java",
+      "imageSrc": "assets/java2.png"
+     
+    },
+    {
+      "title": "React",
+      "imageSrc": "assets/react2.png"
+    },
+    {
+      "title": "MySql",
+      "imageSrc": "assets/mysql2.png"
+    },
+    {
+        "title": "HTML",
+        "imageSrc": "assets/html2.png"
+    },
+    {
+        "title": "CSS",
+        "imageSrc": "assets/css2.png"
+    },
+    {
+      "title": "Figma",
+      "imageSrc": "assets/figma2.png"
+    },
+    {
+      "title": "Hibernate",
+    "imageSrc": "assets/hibernate.png"
+   
+  },
+  {
+    "title": "Python",
+  "imageSrc": "assets/python2.png"
+ 
+},
+{
+  "title": "JS",
+"imageSrc": "assets/js2.png"
+
+},
+{
+  "title": "Thymleaf",
+"imageSrc": "assets/thym2.png"
+
+},
+{
+  "title": "SCSS",
+"imageSrc": "assets/sassy.png"
+
+}
+  ]

@@ -1,0 +1,157 @@
+.testimonials{
+  
+    justify-content: center;
+    display:flex;
+    overflow: hidden;
+
+   
+   
+    
+
+    .container{
+        // background-color: blue;
+        width: 80%;
+        overflow: hidden;
+
+        .content{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row-reverse;
+            // background-color: black;
+
+            .img-container{
+                margin-top: 60px;
+                width: 20%;
+                height: 60%;
+                overflow: hidden;
+                flex:0.7;
+                // background-color: black;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    overflow: hidden;
+                    object-fit: contain;
+                
+                    
+                }
+
+            }
+            .text-container{
+                flex:1;
+                padding: 5px;
+                margin-top: 60px;
+                overflow: hidden;
+                // display: flex;
+                // flex-wrap: wrap;
+
+                .text{
+                    font-size: 25px;
+                    font-weight: 400;
+
+                    @media screen and (max-width:852px) {
+                        font-size: 20px;
+                        
+                        
+                    }
+                    @media screen and (max-width:548px) {
+                        font-size: 16px;
+                        
+                        
+                    }
+                    @media screen and (max-width:363px) {
+                        font-size: 14px;
+                        
+                        
+                    }
+                    @media screen and (max-width:376px) and (max-height:668px) {
+                        font-size: 13px;
+                        
+                        
+                    }
+                    .ita{
+                        font-style: oblique;
+                        color: black;
+                        font-weight: 400;
+                    }
+
+                    span{
+                        color: rgba(220, 20, 60, 0.83);
+                        font-weight: 500;
+                    }
+
+                }
+
+               
+            }
+            .contact{
+
+                margin-top: 20px;
+                a{
+                    text-decoration: none;
+    
+                    button{
+                        width: 140px;
+                        height: 40px;
+                        border-radius: 8%;
+                        cursor: pointer;
+                        background-color: rgba(220, 20, 60, 0.836);
+                        color: white;
+                        border: none;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-around;
+                        padding: 5px;
+    
+    
+                        p {
+                            font-size: 17px;
+                            // color: black;
+                        }
+    
+                        &:hover {
+                            background-color: crimson
+                        }
+                       
+    
+                }
+    
+                }
+                
+
+            }
+            
+                
+
+        }
+    }
+   
+
+
+    h2{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    // .works {
+    //     position: absolute;
+    //     bottom: 10px;
+    //     left: 40px;
+    //     background-color: black;
+
+    //     img {
+    //         width: 30px;
+    //         animation: arrowBlink 2s infinite;
+    //     }
+
+    //     @keyframes arrowBlink {
+    //         100% {
+    //             opacity: 0;
+    //         }
+    //     }
+    // }
+
+    
+}

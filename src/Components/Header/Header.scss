@@ -1,0 +1,99 @@
+@import "../../Global.scss";
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-color:white;
+    color: $mainColor;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+   transition: all 1s ease;
+
+    .wrapper{
+        padding: 10px 30px;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+       
+        .left{
+                display: flex;
+                align-items: center;
+                @media  screen and (max-width:612px) {
+                    display: none;
+                    
+                }
+
+            .logo{
+                font-size: 40px;
+                font-weight: 700;
+                text-decoration: none;
+                color: inherit;
+                margin-right: 40px;
+            }
+            .itemContainer{
+                display: flex;
+                align-items: center;
+                margin-left: 30px;
+                text-decoration: none;
+
+                    
+                    span{
+                        // Add this to inherit the color from the parent
+                          text-decoration: none;
+                          margin-left: 5px;
+                          font-size: 15px;
+                          font-weight: 500;
+                          
+                      }
+                    
+                }
+            
+            
+            
+            
+
+        }
+        .right{
+
+            .hamburger{
+                display: flex;
+                width: 28px;
+                height: 25px;
+                justify-content: space-between;
+                flex-direction: column;
+                cursor: pointer;
+            }
+            span{
+                width: 100%;
+                height: 3px;
+                background-color: $mainColor;
+                transform-origin: left;
+                transition: all 2s ease;
+            }
+        }
+        
+
+    }
+    &.active{
+        background-color: $mainColor;
+        color: white;
+
+        .hamburger{
+            span{
+                &:first-child{
+                    background-color: white;
+                    transform: rotate(45deg);
+                }
+                &:nth-child(2){
+                    opacity: 0;
+                }
+                &:last-child{
+                    background-color: white;
+                    transform: rotate(-45deg);
+                }
+            }
+
+        }
+    }
+}

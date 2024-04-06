@@ -1,0 +1,315 @@
+
+.portfolio {
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   width: 100vw;
+  height: calc(100vh - 70px);
+  // background-color: aqua;
+
+  h2 {
+    margin-top: 30px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .left {
+  //   width: 80vw;
+  //   min-height: 80vh;
+       width:60%;
+      height: 80%;
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom:5px ;
+    justify-content: space-between;
+    padding: 20px;
+  //   background-color: black;
+    gap: 60px;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      width: 11%;
+      height: 16%;
+      // width: 80px;
+      // height: 80px;
+      // background-color: rgba(228, 228, 238, 0.333);
+      padding: 20px;
+      justify-content: center;
+      overflow: hidden;
+      align-items: center;
+      border-radius: 50%;
+
+      &:hover {
+        background-size: 100% 100%;
+      }
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        transition: transform 0.5s ease-in-out;
+
+        &:hover {
+          transform: rotate(60deg);
+        }
+      }
+
+
+      p {
+        margin-top: 5px;
+        height: 30%;
+      //   background-color: black;
+        font-size: 80%;
+      
+        margin-bottom: 3px;
+        overflow: hidden;
+      }
+    }
+  }
+  @media screen and (max-width: 1280px) {
+      .left {
+        gap: 40px;
+        height: 60%;
+
+        .container{
+            width: 90px;
+            height: 18%;
+            p{
+              height: 60%;
+            }
+        }
+      }
+    }
+
+  @media screen and (max-width: 1253px) {
+    .left {
+      gap: 40px;
+
+      .container{
+          width: 80px;
+          height: 16%;
+          p{
+              height: 60%;
+            }
+      }
+    }
+  }
+  @media screen and (max-width: 1000px) and (max-height: 1369px) {
+      .left {
+        gap: 30px;
+
+        .container{
+            width: 75px;
+            height: 15%;
+            p{
+              height: 60%;
+            }
+        }
+      }
+    }
+
+    @media screen and (max-width: 917px){
+      .left {
+        gap: 15px;
+
+        .container{
+            width: 60px;
+            height: 13%;
+            p{
+              height: 60%;
+            }
+        }
+      }
+    }
+    @media screen and (max-width: 842px) {
+      .left {
+        gap: 15px;
+        padding: 20px;
+
+        .container{
+            width: 60px;
+            height: 14%;
+            padding: 15px;
+            p{
+              height: 50%;
+            }
+        }
+      }
+    }
+    @media screen and (max-width: 533px) {
+      .left {
+        gap: 0px;
+        padding: 20px ;
+
+
+        .container{
+            width: 70px;
+            height: 14%px;
+            padding: 5px;
+            p{
+             
+              height: 50%;
+            }
+        }
+      }
+    }
+    @media screen and (max-width: 462px) {
+      .left {
+        gap: 0px;
+        padding: 20px;
+
+        .container{
+            width: 60px;
+            height: 14%;
+            padding: 10px;
+            p{
+             
+              height: 60%;
+            }
+            
+        }
+      }
+    }
+    @media screen and (max-width: 410px) {
+      .left {
+        gap: 0px;
+        padding: 20px;
+
+        .container{
+            width: 60px;
+            height: 14%;
+            padding: 5px;
+          //   background-color: black;
+            
+            p{
+             
+              height: 60%;
+            }
+        }
+      }
+    }
+
+  
+    
+
+ 
+    @media screen and (max-width: 415px) and (max-height: 932px) {
+      .left {
+        gap: 0px;
+        height: 60%;
+        padding: 10px;
+
+        .container {
+          width: 50px;
+          height: 14%;
+          padding: 7px;
+          p{
+              height: 60%;
+            }
+        }
+      }
+    }
+    @media screen and (max-width: 431px) and (max-height: 933px) {
+      .left {
+        gap: 8px;
+        height: 65%;
+        padding: 10px;
+
+        .container {
+          width: 50px;
+          height: 12%;
+          padding: 7px;
+          p{
+              height: 60%;
+            }
+        }
+      }
+    }
+
+    @media screen and (max-width: 376px) and (max-height: 741px) {
+      .left {
+        gap: 10px;
+        height: 80%;
+        padding: 10px;
+
+        .container {
+          width: 50px;
+          height: 12%;
+          padding: 7px;
+          p{
+              height: 60%;
+            }
+        }
+      }
+    }
+    
+  //   @media screen and  (min-height: 741px) {
+  //     .left {
+  //       gap: 10px;
+  //       height: 80%;
+  //       padding: 10px;
+
+  //       .container {
+  //         width: 50px;
+  //         height: 12%;
+  //         padding: 7px;
+  //         p{
+  //             height: 50%;
+  //           }
+  //       }
+  //     }
+  //   }
+
+  // //   
+  //   @media screen and (max-width: 913px) and (max-height: 1369px) {
+  //     .left {
+  //       gap: 10px;
+  //       height: 40%;
+  //       width: 50%;
+  //       padding: 10px;
+
+  //       .container {
+  //         width: 80px;
+  //         height: 15%;
+  //         padding: 7px;
+  //       }
+  //     }
+  //   }
+  //   @media screen and (max-width: 1025px) and (max-height: 1367px) {
+  //     .left {
+  //       gap: 10px;
+  //       height: 40%;
+  //       width: 50%;
+  //       padding: 10px;
+
+  //       .container {
+  //         width: 90px;
+  //         height: 18%;
+  //         padding: 7px;
+  //       }
+  //     }
+  //   }
+    @media screen and (min-width:820px) and (min-height: 1180px) {
+      .left {
+        gap: 10px;
+        height: 40%;
+        width: 60%;
+        padding: 10px;
+
+        .container {
+          width: 80px;
+          height: 15%;
+          padding: 7px;
+          font{
+              height: 60%;
+          }
+        }
+      }
+    }
+}

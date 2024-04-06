@@ -1,0 +1,28 @@
+[
+    {
+      "role": "Great Learning",
+      "organisation": "Full Stack Web Development",
+      "startDate": "Oct,2023",
+      "endDate": "Present",
+      "experiences": ["Core and Advanced Java", "Spring Boot"],
+      "grade": ""
+    },
+    {
+      "role": "Lovely Professional University",
+      "organisation": "B.Tech Mechatronics Engineering",
+      "startDate": "2019",
+      "endDate": "2023",
+      "experiences": ["Python", "MATLAB","Automation"],
+      "grade": "8.41 CGPA"
+    },
+    {
+      "role": "The Baker Vidyapeedh",
+      "organisation": "XII Grade",
+      "startDate": "2018",
+      "endDate": "2019",
+      "experiences": [
+        "Computer Science"
+      ],
+      "grade": "85%"
+    }
+  ]
