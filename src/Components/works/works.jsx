@@ -30,14 +30,15 @@ const works = () => {
         },
         {
             id: "2",
-            title: "Ticket Tracker",
+            title: "Organizer Pro",
             desc:
-                `Developed a comprehensive ticket tracking application with CRUD operations, real-time search, pagination, and sorting capabilities.`,
+                `Built a robust task management application featuring user authentication, category creation,
+                and CRUD operations for managing day to day tasks`,
             img:
-                "assets/student_management.png",
-            git: "https://github.com/kashyapkr/Ticker-Tracker",
+                "",
+            git: "https://github.com/kashyapkr/OrganizerPro",
             live: "",
-            video:'assets/ticket.mp4'
+            video:'assets/orgo.mp4'
         },
          
         {
